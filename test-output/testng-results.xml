@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25169" started-at="2020-01-05T18:40:15 IST" finished-at="2020-01-05T18:40:40 IST">
+  <suite name="Default suite" duration-ms="35122" started-at="2020-01-07T21:12:27 IST" finished-at="2020-01-07T21:13:02 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25169" started-at="2020-01-05T18:40:15 IST" finished-at="2020-01-05T18:40:40 IST">
-      <class name="com.qspiders.google.scripts.LinkedInProfilePic">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qspiders.google.scripts.LinkedInProfilePic@2286778]" name="openBrowser" is-config="true" duration-ms="7584" started-at="2020-01-05T18:40:15 IST" finished-at="2020-01-05T18:40:22 IST">
+    <test name="Default test" duration-ms="35122" started-at="2020-01-07T21:12:27 IST" finished-at="2020-01-07T21:13:02 IST">
+      <class name="com.qspiders.google.scripts.GetProfilePic">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.qspiders.google.scripts.GetProfilePic@2286778]" name="openBrowser" is-config="true" duration-ms="9571" started-at="2020-01-07T21:12:27 IST" finished-at="2020-01-07T21:12:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.qspiders.google.scripts.LinkedInProfilePic@2286778]" name="googleSearch" duration-ms="16651" started-at="2020-01-05T18:40:22 IST" finished-at="2020-01-05T18:40:39 IST">
+        <test-method status="PASS" signature="getLinkedInProfilePic()[pri:0, instance:com.qspiders.google.scripts.GetProfilePic@2286778]" name="getLinkedInProfilePic" duration-ms="24455" started-at="2020-01-07T21:12:37 IST" finished-at="2020-01-07T21:13:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- googleSearch -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qspiders.google.scripts.LinkedInProfilePic@2286778]" name="closeBrowser" is-config="true" duration-ms="851" started-at="2020-01-05T18:40:39 IST" finished-at="2020-01-05T18:40:40 IST">
+        </test-method> <!-- getLinkedInProfilePic -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qspiders.google.scripts.GetProfilePic@2286778]" name="closeBrowser" is-config="true" duration-ms="986" started-at="2020-01-07T21:13:01 IST" finished-at="2020-01-07T21:13:02 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.qspiders.google.scripts.LinkedInProfilePic -->
+      </class> <!-- com.qspiders.google.scripts.GetProfilePic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
